@@ -106,7 +106,8 @@ p {
 
 .navbar {
     padding: 10px 20px;
-    height: 100px;
+    width: 801px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,8 +122,9 @@ p {
     padding: 0 20px;
 }
 .nav-logo {
-    width: 200px;
-    height: auto;
+    height: 60px;   /* Match your navbar height */
+  width: auto;    /* Keeps proportions */
+  object-fit: contain; /* Prevents stretching */
 }
 
 h1 {
